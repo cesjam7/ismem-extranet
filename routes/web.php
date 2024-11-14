@@ -9,7 +9,3 @@ Route::get('/', function () {
 Route::get('/alumnos', function () {
     return view('welcome');
 });
-
-Route::get('/tareas', function () {
-    return view('welcome');
-});
